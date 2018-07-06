@@ -1,0 +1,12 @@
+{
+  "travels": [
+    {"id": 1, "title": "Ba Na hill", "description": "The Ba Na hill in Da Nang city", "image": "", "countryId": 2},
+    {"id": 2, "title": "Golden Bridge", "description": "The Golden bridge was built in 1890", "image": "", "countryId": 1},
+    {"id": 3, "title": "Lion spec", "description": "Live in Singapore", "image": "", "countryId": 3}
+  ],
+  "countries": [
+    {"id": 1, "name": "united states america"},
+    {"id": 2, "name": "viet nam"},
+    {"id": 3, "name": "singapore"}
+  ]
+}

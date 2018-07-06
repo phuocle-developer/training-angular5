@@ -1,0 +1,170 @@
+<div class="container">
+  <div class="header">
+    <h1 class="header-title">
+      Discovery Travel
+    </h1>
+    <div class="header-search">
+      <input class="form-control search" type="search" placeholder="search ..." />
+      <span class="glyphicon glyphicon-search search-icon"></span>
+    </div>
+  </div>
+
+  <div class="travels-box">
+    <div class="create-new">
+      <button class="btn btn-primary" data-toggle="modal"
+        data-target="#myModal">
+        New
+      </button>
+    </div>
+
+    <div class="travels">
+
+      <div class="col travel-header">
+        <div class="id">Id</div>
+        <div class="image">Image</div>
+        <div class="title">
+          Title
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </div>
+        <div class="create-date">
+          Create Date
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </div>
+        <div class="edit"></div>
+        <div class="delete"></div>
+      </div>
+
+      <div class="travel-list">
+        <div class="col travel">
+          <div class="id">01</div>
+          <div class="image">
+            <img src="../assets/img/photo-trail.jpg" alt="discover plan" />
+          </div>
+          <div class="title">
+            My 30 Best Travel Tips After 7 Years Traveling The World
+          </div>
+          <div class="create-date">
+            06-07-2018
+          </div>
+          <div class="edit">
+            <button class="btn btn-custom btn-warning">Edit</button>
+          </div>
+          <div class="delete">
+            <button class="btn btn-custom btn-danger">Delete</button>
+          </div>
+        </div>
+
+        <div class="col travel">
+          <div class="id">01</div>
+          <div class="image">
+            <img src="../assets/img/photo-trail.jpg" alt="discover plan" />
+          </div>
+          <div class="title">
+            My 30 Best Travel Tips After 7 Years Traveling The World
+          </div>
+          <div class="create-date">
+            06-07-2018
+          </div>
+          <div class="edit">
+            <button class="btn btn-custom btn-warning">Edit</button>
+          </div>
+          <div class="delete">
+            <button class="btn btn-custom btn-danger">Delete</button>
+          </div>
+        </div>
+
+        <div class="col travel">
+          <div class="id">01</div>
+          <div class="image">
+            <img src="../assets/img/photo-trail.jpg" alt="discover plan" />
+          </div>
+          <div class="title">
+            My 30 Best Travel Tips After 7 Years Traveling The World
+          </div>
+          <div class="create-date">
+            06-07-2018
+          </div>
+          <div class="edit">
+            <button class="btn btn-custom btn-warning">Edit</button>
+          </div>
+          <div class="delete">
+            <button class="btn btn-custom btn-danger">Delete</button>
+          </div>
+        </div>
+      </div>
+
+      <nav aria-label="Page navigation" class="paging-custom">
+        <ul class="pagination">
+          <li>
+            <a href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li>
+            <a href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal template -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"
+          aria-label="Close">
+          <span aria-hidden="true"></span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">New Travel</h4>
+      </div>
+
+      <div class="modal-body">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="inputTitle" class="col-sm-2 control-label">Title</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputTitle">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="selectCountry" class="col-sm-2 control-label">Country</label>
+            <div class="col-sm-10">
+              <select class="form-control" id="selectCountry">
+                <option value="">United States America</option>
+                <option value="">Viet Nam</option>
+                <option value="">Singapore</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="areaDescription" class="col-sm-2 control-label">Description</label>
+            <div class="col-sm-10">
+              <textarea class="form-control" cols="30" rows="10"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="uploadImage" class="col-sm-2 control-label">Image</label>
+            <div class="col-sm-10">
+              <input type="file" id="uploadImage" class="form-control">
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default"
+          data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+
+    </div>
+  </div>
+</div>

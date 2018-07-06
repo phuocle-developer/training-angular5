@@ -1,0 +1,86 @@
+.container {
+  padding: 30px 40px 0 40px;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+.header-title {
+  display: inline;
+}
+
+
+.header-search {
+  float: right;
+  max-width: 300px;
+  padding-right: 40px;
+  position: relative;
+}
+
+.header-search .search {
+  padding-right: 30px;
+}
+
+.header-search .search-icon {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
+
+.travels-box .create-new {
+  margin-bottom: 30px;
+}
+
+.travels {
+  min-width: 700px;
+}
+
+.travels .col {
+  box-shadow: 1px 1px 5px 3px rgb(35, 37, 39);
+  margin-bottom: 20px;
+}
+
+.travels .col * {
+  display: inline-block;
+  padding: 5px;
+}
+
+.travels .col .id {
+  width: 3%;
+}
+
+.travels .col .image {
+  width: 30%;
+}
+
+.travels .col .title {
+  vertical-align: middle;
+  width: 25%;
+}
+
+.travels .col .create-date {
+  width: 15%;
+}
+
+.travels .col .edit {
+  text-align: center;
+  width: 10%;
+}
+
+.travels .col .delete {
+  text-align: center;
+  width: 13%;
+}
+
+.travels .paging-custom {
+  float: right;
+}
+
+.travel .btn-custom {
+  width: 70px;
+}
+
+.travel .image img {
+  width: 100%;
+}
